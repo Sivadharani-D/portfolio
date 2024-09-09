@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    background-image: none;
+    background-color: transparent;
+  }
+.dharani{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://bit.ly/3zbKVpI");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.info h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 25px;
+    color: white;
+    line-height: 28px;
+}
+.info a{
+    background: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.social a{
+    width:10% 20%;
+    height: 10%;
+    font-size:35px;
+    color: black;
+    margin-right: 20px;
+}
+div {
+    background-image: none;
+    background-color: transparent;
+  }
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://tinyurl.com/bp78dk83");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.text{
+    margin-left: 6%;
+}
+.text h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 130px;
+}
+.text p{
+    color: white;
+    line-height: 28px;
+    font-size: 25px;
+    font-style: italic;
+}
+.skills{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://bit.ly/4gjk1gj");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.strength{
+    margin-left: 8%;
+}
+.strength h3{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 130px;
+}
+.strength p{
+    color: white;
+    line-height: 28px;
+    font-size: 30;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://bit.ly/4cXzAYf");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+/* Header Styling */
+.contact h4 {
+    font-size: 24px;
+    color:white;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 50%;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: #647f9c;
+}
+
+.contact-form button {
+    background-color: #647f9c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #273b52;
+}
