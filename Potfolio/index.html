@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dharani Portfolio</title>
+</head>
+<body>
+    <header class="header section">
+          <div class="dharani" id="Home">
+              <nav>
+                 <li style="color:white;"><b><i>My Portfolio</i></b></li>
+                    <ul>
+                     <li ><a href=><b>Home</b></a></li>
+                     <li><a href="#About me"><b>About</b></a></li>
+                     <li><a href="#Skills"><b>Skills</b></a></li>
+                     <li><a href="#Contact"><b>Contact</b></a></li>
+                    </ul>
+              </nav>
+              <div class="info">
+                <h1>I'm <i>Siva Dharani</i> Dasareddygari</h1>
+                <p>--> An Undergraduate, Enthusiastic and Passionate student.<br> 
+                --> Strong interest in pursuing a career in developingskills.<br>
+                --> I eager to contribute to a dynamic team.<br>
+                --> Bringing fresh perspectives and a commitment to continuous learning.</p>
+                    <a href="C:\Users\sivad\OneDrive\Pictures\Saved Pictures\resume.pdf"><b><i>Resume</i></b></a>
+            </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sivadharani"><img src="https://bit.ly/3XdjKTs" alt="LinkedIn" style="width:42px;height:42px;"></a>
+                    <a href="mailto:sivadharanid21@gmail.com"><img src="https://bit.ly/3ZiXdqR" alt="Email" style="width:42px;height:42px;"></a>
+                    <a href="https://github.com/Sivadharani-D/Sivadharani-My-repo.git"><img src="https://bit.ly/47fWokR" alt="Github"style="width:42px;height:42px;"> </a>
+                </div>
+          </div>
+    </header>      
+
+<section>
+    <div class="about" id="About me">
+        <div class="text">
+            <style>
+                 h2
+                 {
+            transform: translateY(100px); /* Adjust this value to move the header down */
+            margin: 0; /* Ensure no extra margin affects layout */
+        }
+            </style>
+            <h2 ><b>About me</b>
+                
+            </h2>  
+            <style>
+                p {
+                  margin-bottom: 20px; /* Adds 20px space below each paragraph */
+                }
+                </style>
+               <p>I am proficient in Python, HTML, and CSS, which enables me to<br>
+                  create both dynamic and static websites. <br></p>
+                <p> My knowledge of Python allows me to write efficient back-end<br>
+                  code and automate tasks,while my skills in HTMLand CSS ensure<br>
+                  that I can structure and style web pages to create user-friendly,<br>
+                  visually appealing interfaces.<br></p>
+                <p>Combining these languages,I am capable of developing full-featured<br>
+                  web applications with both aesthetic and functional excellence."</p>
+               </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="skills" id="Skills">
+        <div class="strength">
+            <style>
+                 h3
+                 {
+            transform: translateY(100px); /* Adjust this value to move the header down */
+            margin: 0; /* Ensure no extra margin affects layout */
+        }
+            </style>
+            <h3 ><i><b>My Skills</b></i>
+            </h3>
+        </div>
+        <style>
+        .image-row {
+            display: flex;
+            justify-content: left; /* Aligns images in the left */
+            margin-bottom: 10px; /* Adds space between rows */
+            margin-left: 6%;
+        }
+        .image-row img {
+            margin: 10px; /* Adds space between images in a row */
+            width: 150px; /* Set image width */
+            height: auto; /* Keep image aspect ratio */
+        }
+        img{
+            border-radius: 50%;
+        }
+    </style>
+    <div class="image-row">
+        <img src="https://tinyurl.com/5xpvbrhd" alt="Python" style="width:200px;height:200px;"></a>
+        <img src="https://bit.ly/3ZhyGCF" alt="Java" style="width:200px;height:200px;"></a>
+        <img src="https://tinyurl.com/yfkewt5s" alt="Js" style="width:200px;height:200px;"></a>
+    </div>
+    <div class="image-row">
+        <img src="https://bit.ly/3XmAUOD" alt="HTML" style="width:200px;height:200px;"></a>
+        <img src="https://tinyurl.com/33v2rrvu" alt="CSS" style="width:200px;height:200px;"></a>
+    </div>
+    </div>
+</section>
+
+<section>
+    <div class="contact" id="Contact">
+       <style>
+          .contact {
+               background-color: #da3535;
+               padding: 20px;
+           }
+           .contact h4 {
+               text-align: left;
+               margin-left: 6%;
+           }
+           .contact-form {
+                max-width: 500px;
+                margin: 0 auto;
+                margin-left: 8%;
+                margin-bottom: 25%;
+           }
+           .contact-form input, .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            .contact-form button {
+                background-color: #647f9c
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .contact-form button:hover {
+                background-color: #1b60a9;
+            }
+</style>
+<style>
+    h4
+    {
+        transform: translateY(80px); /* Adjust this value to move the header down */
+        margin: 0; /* Ensure no extra margin affects layout */
+    }
+</style>
+
+<h4>Contact Us</h4>
+<form class="contact-form" action="your-server-endpoint" method="post">
+    <style>
+        .contact-form
+        {
+            transform:translatey(50px);
+            margin:6%;
+        }
+    </style>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
